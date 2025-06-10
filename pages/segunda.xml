@@ -7,10 +7,10 @@
   y="530"
   font-size="20"
   color="black" 
-  on_click="set(texto1, $texto1+1)"
+  on_click="set(texto2, $texto2+1)"
   />
 
-<fab-if when="$texto1 = 1">
+<fab-if when="$texto2 = 1">
   <agent
     id="frase1"
     text="Ela estava deitada sobre seus próprios braços quando levantou a cabeça e notou o casaco dele. Preto, estilizado, com o símbolo de um anti-herói que ela adorava — sombrio, sarcástico, e com uma moral questionável. Um sorriso se formou nos lábios dela, quase imperceptível."
@@ -22,7 +22,7 @@
     />
 </fab-if>
 
-<fab-if when="$texto1 = 2">
+<fab-if when="$texto2 = 2">
   <agent
     id="frase2"
     text="Ele sentiu o olhar nas costas. Virou-se sutilmente, como quem apenas verifica algo atrás. Os olhos deles se cruzaram por um breve segundo."
@@ -34,7 +34,7 @@
     />
 </fab-if>
 
-<fab-if when="$texto1 = 3">
+<fab-if when="$texto2 = 3">
   <agent
     id="frase3"
     text="Naquele dia, não houve palavras. Só um encontro de olhares feito de relance. Mas às vezes, é exatamente assim que começa uma história — não com um diálogo ensaiado ou um gesto grandioso, mas com um detalhe em comum e um instante de conexão.
@@ -47,7 +47,7 @@ E para eles, aquilo foi o primeiro capítulo."
     />
 </fab-if>
 
-<fab-if when="$texto1 = 4">
+<fab-if when="$texto2 = 4">
   <agent
     id= "seguinte"
     text= "continuar"
