@@ -1,8 +1,8 @@
-<page id="primeira" bg_image="d352fb4e_d665_4e7b_b5a5_15106ecaedfd.jpg">
+<page id="primeira" bg_color="black">
   <agent 
     id="titulo" 
-    x="500" 
-    y="320" 
+    x="300" 
+    y="200" 
     text="Um Olhar de Relance" 
     color="white" 
     font-size="50"
@@ -23,8 +23,8 @@
     id="frase1"
     text="Ela estava como uma condenada naquela manhã cinzenta de um sábado, prestes a enfrentar um simulado valendo um mísero ponto extra. O tipo de ponto que não mudava vidas, mas que mexia com o orgulho dos que queriam sempre estar no topo. Ela também era uma viciada em quadrinhos e animes, e esse universo escapista era seu combustível para aguentar a rotina escolar."
     x="center"
-    y="475"
-    font-size="25"
+    y="400"
+    font-size="30"
     color="white"
     animation="typewriter"
     />
@@ -35,8 +35,8 @@
     id="frase2"
     text="Ele, por outro lado, não compartilhava desse drama acadêmico. Viciado em videogames e death metal, só queria estar na média. Não queria se destacar, não queria reprovar. Queria paz e sua playlist com guturais monstruosos."
     x="center"
-    y="465"
-    font-size="20"
+    y="400"
+    font-size="30"
     color="white" 
     animation="typewriter"
     />
@@ -47,8 +47,8 @@
     id="frase3"
     text="O destino, com seu senso de humor peculiar, resolveu colocá-los um atrás do outro. O simulado, como sempre, tinha lugares marcados. Ela sentou atrás. Ele, distraído, já estava com uma caneca na boca, encarando a mesa ainda vazia enquanto esperava o começo da prova."
     x="center"
-    y="455"
-    font-size="18"
+    y="400"
+    font-size="30"
     color="white" 
     animation="typewriter"
     />
