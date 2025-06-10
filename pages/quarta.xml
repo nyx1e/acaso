@@ -121,10 +121,7 @@ Ele a olhou, atento e sorriu.
 <fab-if when="$texto4 = 9">
   <agent
     id="frase9"
-    text="— O que eu queria dizer ontem… é que estou interessada em você.
-
-Ele a olhou, atento e sorriu.
-— Eu também."
+    text="Ali começou. Sem pressa. Sem cena grandiosa. Só duas pessoas que se viram, se perderam, se reencontraram… e, finalmente, se reconheceram."
     x="center"
     y="390"
     font-size="30"
@@ -141,7 +138,7 @@ Ele a olhou, atento e sorriu.
     y="530"
     font-size="20"
     color="black"
-    on_click="goToPage('quarta')"
+    on_click="goToPage('quinta')"
   />
 </fab-if>  
 </page>
