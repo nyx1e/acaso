@@ -1,19 +1,68 @@
-<page id="middle" bg_image="tech-bg-lab.png">
-  <agent
-    id="teste"
-    text="Hello World Middle"
-    color="white"
-    x="center"
-    y="center"
-    font-size="70"
+<page id="start" bg_color="black">
+  <agent 
+    id="titulo" 
+    x="500" 
+    y="320" 
+    text="Capítulo 01" 
+    color="white" 
+    font-size="50"
+    />
+  
+<agent 
+  id= "botão"
+  text= "continuar"
+  x="570"
+  y="559"
+  font-size="20"
+  color="black" 
+  on_click="set(texto1, $texto1+1)"
   />
 
+<fab-if when="$texto1 = 1">
   <agent
-    id="next_page_text"
-    text="Proxima Pagina"
-    animation="glitch"
-    y="480"
-    x="640"
-    on_click="goToPage('ending')"
+    id="frase1"
+    text="Eis uma bruxa de bom de coração e curiosa."
+    x="center"
+    y="475"
+    font-size="25"
+    color="white"
+    animation="typewriter"
+    />
+</fab-if>
+
+<fab-if when="$texto1 = 2">
+  <agent
+    id="frase2"
+    text="Entretanto o tempo tornou-se seu maior inimigo, pois tirou dela todos a quem amava e a amaldiçoou com a eternidade."
+    x="center"
+    y="465"
+    font-size="20"
+    color="white" 
+    animation="typewriter"
+    />
+</fab-if>
+
+<fab-if when="$texto1 = 3">
+  <agent
+    id="frase3"
+    text="Com o tempo a bruxa, uma vez amável, entrou em contato com um mundo cruel e sem misericórdia, o qual endureceu seu coração e a transformou em um monstro."
+    x="center"
+    y="455"
+    font-size="18"
+    color="white" 
+    animation="typewriter"
+    />
+</fab-if>
+
+<fab-if when="$texto1 = 4">
+  <agent
+    id= "seguinte"
+    text= "continuar"
+    x="570"
+    y="559"
+    font-size="20"
+    color="black"
+    on_click="goToPage('segunda')"
   />
+</fab-if>  
 </page>
