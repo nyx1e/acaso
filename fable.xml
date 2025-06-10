@@ -9,6 +9,10 @@
   <property name="texto4" default="0" />
 
   <start />
-  <middle />
+  <primeira />
+  <segunda />
+  <terceira />
+  <quarta />
+  <quinta />
   <ending />
 </fable>
