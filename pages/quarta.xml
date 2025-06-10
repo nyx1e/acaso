@@ -1,3 +1,147 @@
 <page id="quarta" bg_color="black">
-  <agent id="titulo" x="center" y="center" text="Página quarta" color="white" font-size="24" />
+  <agent id="titulo" x="center" y="150" text="O Que Ela Disse" color="white" font-size="50" />
+
+
+<agent 
+  id= "botão"
+  text= "continuar"
+  x="570"
+  y="530"
+  font-size="20"
+  color="black" 
+  on_click="set(texto4, $texto4+1)"
+  />
+
+<fab-if when="$texto4 = 1">
+  <agent
+    id="frase1"
+    text="Os meses do último ano passaram como passam os dias bons: rápidos, intensos e cheios de momentos que pareciam pequenos, mas guardavam algo maior. A aproximação entre os dois ficou cada vez mais natural."
+    x="center"
+    y="390"
+    font-size="30"
+    color="white"
+    animation="typewriter"
+    />
+</fab-if>
+
+<fab-if when="$texto4 = 2">
+  <agent
+    id="frase2"
+    text="Ele já não olhava para ela com timidez, mas com aquele misto de admiração e cuidado silencioso. E ela? Ela já se acostumara a rir das piadas dele, a sentar mais perto sempre que podia, a ouvir — com genuíno interesse — ele falar sobre os diferentes tipos de guturais e como fazê-los."
+    x="center"
+    y="400"
+    font-size="30"
+    color="white" 
+    animation="typewriter"
+    />
+</fab-if>
+
+<fab-if when="$texto4 = 3">
+  <agent
+    id="frase3"
+    text="Foi numa dessas tardes de sol filtrado por nuvens, na quadra do colégio, que algo diferente aconteceu.
+
+A melhor amiga dele apareceu de repente com um sorriso curioso e um brilho de missão secreta nos olhos.
+— Ei, ela quer falar com você. Vem cá."
+    x="center"
+    y="400"
+    font-size="30"
+    color="white" 
+    animation="typewriter"
+    />
+</fab-if>
+
+<fab-if when="$texto4 = 4">
+  <agent
+    id="frase4"
+    text="Ele franziu o cenho, confuso.
+— Falar o quê?
+— Não sei — respondeu a amiga, com um olhar que claramente sabia mais do que dizia. — Só vem."
+    x="center"
+    y="400"
+    font-size="30"
+    color="white" 
+    animation="typewriter"
+    />
+</fab-if>
+
+<fab-if when="$texto4 = 5">
+  <agent
+    id="frase5"
+    text="Ele foi. Mas quando chegou perto dela, encontrou só silêncio. Ela desviou os olhos, mexeu no cabelo, abriu a boca… e nada.
+— Tudo bem? — ele perguntou.
+— Tá sim… era besteira. Esquece — disse ela, com um sorriso leve, mas visivelmente nervoso."
+    x="center"
+    y="400"
+    font-size="30"
+    color="white" 
+    animation="typewriter"
+    />
+</fab-if>
+
+<fab-if when="$texto4 = 6">
+  <agent
+    id="frase6"
+    text="Ele não insistiu. Mas ficou pensando naquilo por um tempo."
+    x="center"
+    y="400"
+    font-size="30"
+    color="white" 
+    animation="typewriter"
+    />
+</fab-if>
+
+<fab-if when="$texto4 = 7">
+  <agent
+    id="frase7"
+    text="No dia seguinte, ela o chamou no canto, sem plateia, sem interrupções. O rosto dela estava corado, e os olhos — firmes, apesar do nervosismo — buscavam os dele."
+    x="center"
+    y="400"
+    font-size="30"
+    color="white" 
+    animation="typewriter"
+    />
+</fab-if>
+
+<fab-if when="$texto4 = 8">
+  <agent
+    id="frase8"
+    text="— O que eu queria dizer ontem… é que estou interessada em você.
+
+Ele a olhou, atento e sorriu.
+— Eu também."
+    x="center"
+    y="390"
+    font-size="30"
+    color="white" 
+    animation="typewriter"
+    />
+</fab-if>
+
+<fab-if when="$texto4 = 9">
+  <agent
+    id="frase9"
+    text="— O que eu queria dizer ontem… é que estou interessada em você.
+
+Ele a olhou, atento e sorriu.
+— Eu também."
+    x="center"
+    y="390"
+    font-size="30"
+    color="white" 
+    animation="typewriter"
+    />
+</fab-if>
+  
+<fab-if when="$texto4 = 10">
+  <agent
+    id= "seguinte"
+    text= "continuar"
+    x="570"
+    y="530"
+    font-size="20"
+    color="black"
+    on_click="goToPage('quarta')"
+  />
+</fab-if>  
 </page>
