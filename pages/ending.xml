@@ -16,6 +16,7 @@ Porque o amor deles não foi um estouro repentino. Foi um conjunto de pequenos m
     x="center"
     y="400"
     font-size="70"
+    animation="typewriter"
   />
 
   <agent
