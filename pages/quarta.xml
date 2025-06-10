@@ -41,7 +41,7 @@
     id="frase3"
     text="Foi numa dessas tardes de sol filtrado por nuvens, na quadra do colégio, que algo diferente aconteceu.
 
-A melhor amiga dele apareceu de repente com um sorriso curioso e um brilho de missão secreta nos olhos.
+A melhor amiga dele apareceu de repente com um sorriso curioso e um brilho de missão secreta nos olhos.        
 — Ei, ela quer falar com você. Vem cá."
     x="center"
     y="400"
@@ -55,10 +55,21 @@ A melhor amiga dele apareceu de repente com um sorriso curioso e um brilho de mi
   <agent
     id="frase4"
     text="Ele franziu o cenho, confuso.
-— Falar o quê?
-— Não sei — respondeu a amiga, com um olhar que claramente sabia mais do que dizia. — Só vem."
+— Falar o quê?"
     x="center"
     y="400"
+    font-size="30"
+    color="white" 
+    animation="typewriter"
+    />
+</fab-if>
+
+  <fab-if when="$texto4 = 4">
+  <agent
+    id="frase41"
+    text="— Não sei — respondeu a amiga, com um olhar que claramente sabia mais do que dizia. — Só vem."
+    x="center"
+    y="450"
     font-size="30"
     color="white" 
     animation="typewriter"
@@ -69,10 +80,21 @@ A melhor amiga dele apareceu de repente com um sorriso curioso e um brilho de mi
   <agent
     id="frase5"
     text="Ele foi. Mas quando chegou perto dela, encontrou só silêncio. Ela desviou os olhos, mexeu no cabelo, abriu a boca… e nada.
-— Tudo bem? — ele perguntou.
-— Tá sim… era besteira. Esquece — disse ela, com um sorriso leve, mas visivelmente nervoso."
+— Tudo bem? — ele perguntou."
     x="center"
     y="400"
+    font-size="30"
+    color="white" 
+    animation="typewriter"
+    />
+</fab-if>
+
+<fab-if when="$texto4 = 5">
+  <agent
+    id="frase51"
+    text="— Tá sim… era besteira. Esquece — disse ela, com um sorriso leve, mas visivelmente nervoso."
+    x="center"
+    y="500"
     font-size="30"
     color="white" 
     animation="typewriter"
@@ -106,24 +128,34 @@ A melhor amiga dele apareceu de repente com um sorriso curioso e um brilho de mi
 <fab-if when="$texto4 = 8">
   <agent
     id="frase8"
-    text="— O que eu queria dizer ontem… é que estou interessada em você.
-
-Ele a olhou, atento e sorriu.
-— Eu também."
+    text="— O que eu queria dizer ontem… é que estou interessada em você."
     x="center"
-    y="390"
+    y="400"
     font-size="30"
     color="white" 
     animation="typewriter"
     />
 </fab-if>
 
+  <fab-if when="$texto4 = 8">
+  <agent
+    id="frase81"
+    text="Ele a olhou, atento e sorriu.
+— Eu também."
+    x="center"
+    y="450"
+    font-size="30"
+    color="white" 
+    animation="typewriter"
+    />
+</fab-if>
+  
 <fab-if when="$texto4 = 9">
   <agent
     id="frase9"
     text="Ali começou. Sem pressa. Sem cena grandiosa. Só duas pessoas que se viram, se perderam, se reencontraram… e, finalmente, se reconheceram."
     x="center"
-    y="390"
+    y="400"
     font-size="30"
     color="white" 
     animation="typewriter"
