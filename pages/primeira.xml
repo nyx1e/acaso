@@ -1,8 +1,8 @@
 <page id="primeira" bg_color="black">
   <agent 
     id="titulo" 
-    x="300" 
-    y="200" 
+    x="center" 
+    y="150" 
     text="Um Olhar de Relance" 
     color="white" 
     font-size="50"
@@ -12,7 +12,7 @@
   id= "botão"
   text= "continuar"
   x="570"
-  y="559"
+  y="530"
   font-size="20"
   color="black" 
   on_click="set(texto1, $texto1+1)"
@@ -59,7 +59,7 @@
     id= "seguinte"
     text= "continuar"
     x="570"
-    y="559"
+    y="530"
     font-size="20"
     color="black"
     on_click="goToPage('segunda')"
