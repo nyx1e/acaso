@@ -1,4 +1,4 @@
-<page id="start" bg_color="black">
+<page id="middle" bg_color="black">
   <agent 
     id="titulo" 
     x="500" 
