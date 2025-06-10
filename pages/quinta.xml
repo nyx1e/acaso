@@ -107,7 +107,7 @@ Sol, mar, vento no rosto, e longas conversas no banco do ônibus e nas redes da 
     y="530"
     font-size="20"
     color="black"
-    on_click="goToPage('quinta')"
+    on_click="goToPage('ending')"
   />
 </fab-if>  
 </page>
