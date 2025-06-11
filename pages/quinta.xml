@@ -1,13 +1,13 @@
 <page id="quinta" bg_image="5fc295d9_23a0_48c3_8ab0_76ac23433732.jpg">
-  <agent id="titulo" x="center" y="150" text="O Que Ele Disse" color="white" font-size="50" />
+  <agent id="titulo" x="center" y="270" text="O Que Ele Disse" color="white" font-size="50" />
 
 <agent 
   id= "botão"
   text= "continuar"
-  x="570"
+  x="670"
   y="530"
   font-size="20"
-  color="black" 
+  color="white" 
   on_click="set(texto5, $texto5+1)"
   />
 
@@ -26,8 +26,7 @@
 <fab-if when="$texto5 = 2">
   <agent
     id="frase2"
-    text="Teve a festa e a viagem para Tutóia.
-Sol, mar, vento no rosto, e longas conversas no banco do ônibus e nas redes da pousada. Houve um mal-entendido bobo e um ciúmes mal disfarçado, mas que no fim só os deixou mais próximos um do outro. Sobre o céu estrelado eles falaram sobre tudo: sobre o futuro, sobre os medos, sobre as bandas de death core, até sobre seus sentimentos."
+    text="Teve a festa e a viagem para Tutóia. Sol, mar, vento no rosto, e longas conversas no banco do ônibus e nas redes da pousada. Houve um mal-entendido bobo e um ciúmes mal disfarçado, mas que no fim só os deixou mais próximos um do outro. Sobre o céu estrelado eles falaram sobre tudo: sobre o futuro, sobre os medos, sobre as bandas de death core, até sobre seus sentimentos."
     x="center"
     y="400"
     font-size="30"
@@ -51,8 +50,7 @@ Sol, mar, vento no rosto, e longas conversas no banco do ônibus e nas redes da 
 <fab-if when="$texto5 = 4">
   <agent
     id="frase4"
-    text="No meio da conversa, ele respirou fundo.
-— Eu te amo."
+    text="No meio da conversa, ele respirou fundo. — Eu te amo."
     x="center"
     y="400"
     font-size="30"
@@ -76,9 +74,7 @@ Sol, mar, vento no rosto, e longas conversas no banco do ônibus e nas redes da 
 <fab-if when="$texto5 = 6">
   <agent
     id="frase6"
-    text="Ela piscou devagar, e em vez de responder logo, sorriu. Aquele sorriso que ele já sabia de cor, mas que ainda conseguia desmontá-lo por dentro.
-
-— Eu te amo também."
+    text="Ela piscou devagar, e em vez de responder logo, sorriu. Aquele sorriso que ele já sabia de cor, mas que ainda conseguia desmontá-lo por dentro. — Eu te amo também."
     x="center"
     y="400"
     font-size="30"
@@ -103,10 +99,10 @@ Sol, mar, vento no rosto, e longas conversas no banco do ônibus e nas redes da 
   <agent
     id= "seguinte"
     text= "continuar"
-    x="570"
+    x="670"
     y="530"
     font-size="20"
-    color="black"
+    color="white"
     on_click="goToPage('ending')"
   />
 </fab-if>  
