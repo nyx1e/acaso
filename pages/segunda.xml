@@ -37,7 +37,7 @@
 <fab-if when="$texto2 = 3">
   <agent
     id="frase3"
-    text="Naquele dia, não houve palavras. Só um encontro de olhares feito de relance. Mas às vezes, é exatamente assim que começa uma história — não com um diálogo ensaiado ou um gesto grandioso, mas com um detalhe em comum e um instante de conexão.
+    text="Naquele dia, não houve palavras. Só um encontro de olhares feito de relance. Mas às vezes, é exatamente assim que começa uma história — não com um diálogo ensaiado ou um gesto grandioso, mas com um detalhe em comum e um instante de conexão. 
 E para eles, aquilo foi o primeiro capítulo."
     x="center"
     y="425"
