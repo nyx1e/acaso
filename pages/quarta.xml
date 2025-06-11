@@ -12,6 +12,8 @@
   on_click="set(texto4, $texto4+1)"
   />
 
+
+  
 <fab-if when="$texto4 = 1">
   <agent
     id="frase1"
