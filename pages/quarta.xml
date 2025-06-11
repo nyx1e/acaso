@@ -12,12 +12,10 @@
   on_click="set(texto4, $texto4+1)"
   />
 
-
-  
 <fab-if when="$texto4 = 1">
   <agent
     id="frase1"
-    text="Os meses do último ano passaram como passam os dias bons: rápidos, intensos e cheios de momentos que pareciam pequenos, mas guardavam algo maior. A aproximação entre os dois ficou cada vez mais natural."
+    text="Foi só no último ano do ensino médio que tudo recomeçou. Mesma turma. Mesmo horário. Mesma sala. E dessa vez, foi ela quem entrou no mundo dele."
      x="405"
     y="25"
     font-size="30"
@@ -29,6 +27,30 @@
 <fab-if when="$texto4 = 2">
   <agent
     id="frase2"
+    text="Por acaso — ou por empurrão do universo — acabou se aproximando do grupo de amigos dele. Começou sentando perto, depois trocando ideias sobre séries, depois rindo das piadas internas. Logo estava nos almoços, nos grupos de mensagem, nos planos de fim de semana. E agora, o “quem sabe um dia” parecia de novo uma possibilidade."
+    x="405"
+    y="25"
+    font-size="30"
+    color="black"  
+    animation="typewriter"
+    />
+</fab-if>
+  
+<fab-if when="$texto4 = 3">
+  <agent
+    id="frase3"
+    text="Os meses do último ano passaram como passam os dias bons: rápidos, intensos e cheios de momentos que pareciam pequenos, mas guardavam algo maior. A aproximação entre os dois ficou cada vez mais natural."
+     x="405"
+    y="25"
+    font-size="30"
+    color="black"
+    animation="typewriter"
+    />
+</fab-if>
+
+<fab-if when="$texto4 = 4">
+  <agent
+    id="frase4"
     text="Ele já não olhava para ela com timidez, mas com aquele misto de admiração e cuidado silencioso. E ela? Ela já se acostumara a rir das piadas dele, a sentar mais perto sempre que podia, a ouvir — com genuíno interesse — ele falar sobre os diferentes tipos de guturais e como fazê-los."
     x="405"
     y="25"
@@ -38,9 +60,9 @@
     />
 </fab-if>
 
-<fab-if when="$texto4 = 3">
+<fab-if when="$texto4 = 5">
   <agent
-    id="frase3"
+    id="frase5"
     text="Foi numa dessas tardes de sol filtrado por nuvens, na quadra do colégio, que algo diferente aconteceu. A melhor amiga dele apareceu de repente com um sorriso curioso e um brilho de missão secreta nos olhos. — Ei, ela quer falar com você. Vem cá."
      x="405"
     y="25"
@@ -50,9 +72,9 @@
     />
 </fab-if>
 
-<fab-if when="$texto4 = 4">
+<fab-if when="$texto4 = 6">
   <agent
-    id="frase4"
+    id="frase6"
     text="Ele franziu o cenho, confuso. — Falar o quê?"
     x="405"
     y="25"
@@ -62,9 +84,9 @@
     />
 </fab-if>
 
-  <fab-if when="$texto4 = 4">
+  <fab-if when="$texto4 = 6">
   <agent
-    id="frase41"
+    id="frase61"
     text="— Não sei — respondeu a amiga, com um olhar que claramente sabia mais do que dizia. — Só vem."
      x="405"
     y="25"
@@ -74,9 +96,9 @@
     />
 </fab-if>
 
-<fab-if when="$texto4 = 5">
+<fab-if when="$texto4 = 7">
   <agent
-    id="frase5"
+    id="frase7"
     text="Ele foi. Mas quando chegou perto dela, encontrou só silêncio. Ela desviou os olhos, mexeu no cabelo, abriu a boca… e nada. — Tudo bem? — ele perguntou."
     x="405"
     y="25"
@@ -86,9 +108,9 @@
     />
 </fab-if>
 
-<fab-if when="$texto4 = 5">
+<fab-if when="$texto4 = 7">
   <agent
-    id="frase51"
+    id="frase71"
     text="— Tá sim… era besteira. Esquece — disse ela, com um sorriso leve, mas visivelmente nervoso."
       x="405"
     y="25"
@@ -98,9 +120,9 @@
     />
 </fab-if>
 
-<fab-if when="$texto4 = 6">
+<fab-if when="$texto4 = 8">
   <agent
-    id="frase6"
+    id="frase8"
     text="Ele não insistiu. Mas ficou pensando naquilo por um tempo."
       x="405"
     y="25"
@@ -110,9 +132,9 @@
     />
 </fab-if>
 
-<fab-if when="$texto4 = 7">
+<fab-if when="$texto4 = 9">
   <agent
-    id="frase7"
+    id="frase9"
     text="No dia seguinte, ela o chamou no canto, sem plateia, sem interrupções. O rosto dela estava corado, e os olhos — firmes, apesar do nervosismo — buscavam os dele."
       x="405"
     y="25"
@@ -122,9 +144,9 @@
     />
 </fab-if>
 
-<fab-if when="$texto4 = 8">
+<fab-if when="$texto4 = 10">
   <agent
-    id="frase8"
+    id="frase10"
     text="— O que eu queria dizer ontem… é que estou interessada em você."
       x="405"
     y="25"
@@ -134,9 +156,9 @@
     />
 </fab-if>
 
-  <fab-if when="$texto4 = 8">
+  <fab-if when="$texto4 = 10">
   <agent
-    id="frase81"
+    id="frase101"
     text="Ele a olhou, atento e sorriu. — Eu também."
     x="405"
     y="25"
@@ -146,9 +168,9 @@
     />
 </fab-if>
   
-<fab-if when="$texto4 = 9">
+<fab-if when="$texto4 = 11">
   <agent
-    id="frase9"
+    id="frase11"
     text="Ali começou. Sem pressa. Sem cena grandiosa. Só duas pessoas que se viram, se perderam, se reencontraram… e, finalmente, se reconheceram."
     x="405"
     y="25"
@@ -158,7 +180,7 @@
     />
 </fab-if>
   
-<fab-if when="$texto4 = 10">
+<fab-if when="$texto4 = 12">
   <agent
     id= "seguinte"
     text= "continuar"
