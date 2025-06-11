@@ -1,4 +1,4 @@
-<page id="quinta" bg_color="black">
+<page id="quinta" bg_image="5fc295d9_23a0_48c3_8ab0_76ac23433732.jpg">
   <agent id="titulo" x="center" y="150" text="O Que Ele Disse" color="white" font-size="50" />
 
 <agent 
