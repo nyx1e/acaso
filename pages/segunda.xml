@@ -43,10 +43,11 @@
     font-size="30"
    color="black"  
     animation="typewriter"
+    on_click="goToPage('terceira')"
     />
 </fab-if>
 
-<fab-if when="$texto2 = 4">
+ <fab-if when="$texto2 = 4">
   <agent
     id= "seguinte"
     text= "continuar"
@@ -54,7 +55,6 @@
     y="530"
     font-size="20"
     color="white"
-    on_click="goToPage('terceira')"
-  />
-</fab-if>  
+    on_click="goToPage('terceira')" />
+</fab-if> 
 </page>
