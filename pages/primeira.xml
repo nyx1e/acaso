@@ -1,11 +1,11 @@
 <page id="primeira" bg_image="d352fb4e_d665_4e7b_b5a5_15106ecaedfd.jpg">
   <agent 
     id="titulo" 
-    x="center" 
-    y="150" 
+    x="159" 
+    y="200" 
     text="Um Olhar de Relance" 
     color="white" 
-    font-size="50"
+    font-size="44"
     />
   
 <agent 
@@ -14,7 +14,7 @@
   x="570"
   y="530"
   font-size="20"
-  color="black" 
+  color="white" 
   on_click="set(texto1, $texto1+1)"
   />
 
@@ -61,7 +61,7 @@
     x="570"
     y="530"
     font-size="20"
-    color="black"
+    color="white"
     on_click="goToPage('segunda')"
   />
 </fab-if>  
