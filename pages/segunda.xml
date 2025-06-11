@@ -3,10 +3,10 @@
 <agent 
   id= "botão"
   text= "continuar"
-  x="570"
+  x="670"
   y="530"
   font-size="20"
-  color="black" 
+  color="white" 
   on_click="set(texto2, $texto2+1)"
   />
 
@@ -17,7 +17,7 @@
     x="center"
     y="400"
     font-size="30"
-    color="white"
+ color="black" 
     animation="typewriter"
     />
 </fab-if>
@@ -29,7 +29,7 @@
     x="center"
     y="400"
     font-size="30"
-    color="white" 
+   color="black" 
     animation="typewriter"
     />
 </fab-if>
@@ -42,7 +42,7 @@ E para eles, aquilo foi o primeiro capítulo."
     x="center"
     y="400"
     font-size="30"
-    color="white" 
+   color="black"  
     animation="typewriter"
     />
 </fab-if>
