@@ -26,7 +26,7 @@
   <agent
     id="frase2"
     text="Quando a escola abriu inscrições para treinos oficiais, os dois não hesitaram. E foi ali, naquela quadra coberta com piso meio gasto, que se viram pela segunda vez. Ela chegou no segundo dia de treino, rindo de algo que uma amiga disse. Ele já estava na quadra conversando um amigo. Ela o notou, e sorriu, quase surpresa."
-    x="100"
+    x="398"
     y="25"
     font-size="30"
     color="black"
@@ -37,7 +37,7 @@
   <agent
     id="frase3"
     text="Durante os treinos, jogaram algumas vezes no mesmo time. O entrosamento era leve, sem esforço. Ela era ágil na defesa. Ele, preciso no saque. Entre uma jogada e outra, dividiam sorrisos discretos e comentários tímidos. Nada demais. Mas em algum momento, entre o som da bola quicando e o apito do professor, ele pensou:"
-    x="100"
+    x="398"
     y="25"
     font-size="30"
     color="black"
@@ -49,7 +49,7 @@
   <agent
     id="frase4"
     text="Quem sabe um dia"
-    x="100"
+    x="398"
     y="25"
     font-size="30"
    color="black"
@@ -61,7 +61,7 @@
   <agent
     id="frase5"
     text="Mas o “quem sabe” foi engolido pela rotina. Eles estudavam em turnos diferentes. Devido a faltas nos treinos, começaram a se desencontrar. Às vezes se viam de longe. Às vezes nem isso. As conversas, que já eram poucas, cessaram. E com o tempo, os dois deixaram a ideia de lado."
-   x="100"
+    x="398"
     y="25"
     font-size="30"
     color="black"
@@ -73,7 +73,7 @@
   <agent
     id="frase6"
     text="Eles não sabiam, mas estavam presos num daqueles enredos de anime em que o destino dá um passo atrás antes de dar dois à frente. Foi só no último ano do ensino médio que tudo recomeçou."
-    x="100"
+    x="398"
     y="25"
     font-size="30"
     color="black"
@@ -84,7 +84,7 @@
   <agent
     id="frase7"
     text="Mesma turma. Mesmo horário. Mesma sala."
-   x="100"
+    x="398"
     y="25"
     font-size="30"
     color="black"
@@ -96,7 +96,7 @@
   <agent
     id="frase8"
     text="E dessa vez, foi ela quem entrou no mundo dele. Por acaso — ou por empurrão do universo — acabou se aproximando do grupo de amigos dele. Começou sentando perto, depois trocando ideias sobre séries, depois rindo das piadas internas. Logo estava nos almoços, nos grupos de mensagem, nos planos de fim de semana. E agora, o “quem sabe um dia” parecia de novo uma possibilidade."
-    x="100"
+    x="398"
     y="25"
     font-size="30"
     color="black"
