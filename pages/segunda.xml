@@ -1,5 +1,6 @@
 <page id="segunda" bg_image="3df248ea_7f64_4961_936e_b39ad8008c5e.jpg" bg_music="from_the_start_instrumental_wsxsyijpw90_.mp3">
 
+<fab-if when="$texto2 < 4">  
 <agent 
   id= "botão"
   text= "continuar"
