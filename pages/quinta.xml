@@ -1,16 +1,17 @@
 <page id="quinta" bg_image="5fc295d9_23a0_48c3_8ab0_76ac23433732.jpg" bg_music="steven_universe_love_like_you_ending_theme_karaoke_4_.mp3">
   <agent id="titulo" x="center" y="270" text="O Que Ele Disse" color="white" font-size="50" />
 
-<agent 
+<fab-if when="$texto5 < 8">
+  <agent 
   id= "botão"
   text= "continuar"
   x="670"
   y="530"
   font-size="20"
   color="white" 
-  on_click="set(texto5, $texto5+1)"
-  />
-
+  on_click="set(texto5, $texto5+1)" />
+</fab-if>
+  
 <fab-if when="$texto5 = 1">
   <agent
     id="frase1"
