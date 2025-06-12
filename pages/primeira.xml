@@ -22,9 +22,9 @@
 <fab-if when="$texto1 = 1">
   <agent
     id="frase1"
-    text="Ela estava como uma condenada naquela manhã cinzenta de um sábado, prestes a enfrentar um simulado valendo um mísero ponto extra. O tipo de ponto que mexia com o orgulho dos que queriam sempre estar no topo. Ela também era uma viciada em quadrinhos e animes, e esse universo escapista era seu combustível para aguentar a rotina escolar."
+    text="Ela estava como uma condenada naquela manhã de um sábado, prestes a enfrentar um simulado valendo um mísero ponto extra. Ela queria ser uma aluna nota 10 e era uma viciada em quadrinhos e animes, e esse universo escapista era seu combustível para aguentar a escola."
     x="center"
-    y="450"
+    y="440"
     font-size="30"
     color="black"
     animation="typewriter"
