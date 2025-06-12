@@ -1,7 +1,7 @@
 <page id="quarta" bg_image="d8822250_d14c_4aef_9803_0663cfa05f7e.jpg" bg_music="onde_anda_voce_tiago_nacarato_karaoke_nota_re_vcol03wwukw_.mp3">
   <agent id="titulo" x="center" y="400" text="O Que Ela Disse" color="white" font-size="50" />
 
-
+ </fab-if>
 <agent 
   id= "botão"
   text= "continuar"
