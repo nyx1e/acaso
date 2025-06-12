@@ -1,17 +1,17 @@
-<page id="primeira" bg_image="d352fb4e_d665_4e7b_b5a5_15106ecaedfd.jpg" bg_music="from_the_start_instrumental_wsxsyijpw90_.mp3">
+<page id="primeira" bg_image="32d189c0_d155_4af3_ac9a_80ab46faf79d.jpg" bg_music="from_the_start_instrumental_wsxsyijpw90_.mp3">
   <agent 
     id="titulo" 
-    x="175" 
-    y="200" 
+    x="215" 
+    y="180" 
     text="Um Olhar de Relance" 
     color="white" 
-    font-size="40"
+    font-size="50"
     />
 <fab-if when="$texto1 < 4">  
 <agent 
   id= "botão"
   text= "continuar"
-  x="570"
+  x="670"
   y="530"
   font-size="20"
   color="white" 
@@ -59,7 +59,7 @@
   <agent
     id= "seguinte"
     text= "continuar"
-    x="570"
+    x="670"
     y="530"
     font-size="20"
     color="white"
