@@ -10,6 +10,7 @@
   color="white" 
   on_click="set(texto2, $texto2+1)"
   />
+</fab-if>
 
 <fab-if when="$texto2 = 1">
   <agent
