@@ -51,7 +51,7 @@
   <agent
     id="frase4"
     text="Quem sabe um dia"
-    x="398"
+    x="530"
     y="100"
     font-size="30"
    color="black"
@@ -64,7 +64,7 @@
     id="frase5"
     text="Mas o “quem sabe” foi engolido pela rotina. Eles estudavam em turnos diferentes. Devido a faltas nos treinos, começaram a se desencontrar. Às vezes se viam de longe. Às vezes nem isso. As conversas, que já eram poucas, cessaram. E com o tempo, os dois deixaram a ideia de lado."
     x="398"
-    y="45"
+    y="50"
     font-size="30"
     color="black"
     animation="typewriter"
@@ -76,7 +76,7 @@
     id="frase6"
     text="Eles não sabiam, mas estavam presos num daqueles enredos de anime em que o destino dá um passo atrás antes de dar dois à frente."
     x="398"
-    y="25"
+    y="75"
     font-size="80"
     color="black"
     animation="typewriter" />
