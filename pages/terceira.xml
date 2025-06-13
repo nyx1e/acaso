@@ -1,5 +1,5 @@
 <page id="terceira" bg_image="bdf00539_3fa9_4cab_ac5a_dad5198042c5.jpg" bg_music="onde_anda_voce_tiago_nacarato_karaoke_nota_re_vcol03wwukw_.mp3">
-  <agent id="titulo" x="450" y="350" text="Quem Sabe Um Dia" color="white" font-size="50" />
+  <agent id="titulo" x="350" y="350" text="Quem Sabe Um Dia" color="white" font-size="50" />
 
 <fab-if when="$texto3 < 7"> 
   <agent 
