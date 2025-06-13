@@ -25,6 +25,7 @@ Porque o amor deles não foi um estouro repentino. Foi um conjunto de pequenos m
     animation="glitch"
     y="480"
     x="640"
+    color="white"
     on_click="goToPage('start')"
   />
 </page>
