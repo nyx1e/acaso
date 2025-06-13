@@ -18,7 +18,7 @@
     id="frase1"
     text="Depois daquele primeiro encontro silencioso no simulado os dois seguiram com suas rotinas. Ela com suas provas, seus animes e mil preocupações. Ele com seus jogos, seus fones e a eterna luta contra a média vermelha. Talvez aquele breve momento tivesse se perdido no tempo… se não fosse pelo esporte. Ambos tinham algo em comum: amavam jogar vôlei."
     x="398"
-    y="25"
+    y="40"
     font-size="30"
     color="black"
     animation="typewriter"  />
@@ -29,7 +29,7 @@
     id="frase2"
     text="Quando a escola abriu inscrições para treinos oficiais, os dois não hesitaram. E foi ali, naquela quadra coberta com piso meio gasto, que se viram pela segunda vez. Ela chegou no segundo dia de treino, rindo de algo que uma amiga disse. Ele já estava na quadra conversando um amigo. Ela o notou, e sorriu, quase surpresa."
     x="398"
-    y="25"
+    y="40"
     font-size="30"
     color="black"
     animation="typewriter" />
@@ -40,7 +40,7 @@
     id="frase3"
     text="Durante os treinos, jogaram algumas vezes no mesmo time. O entrosamento era leve, sem esforço. Ela era ágil na defesa. Ele, preciso no saque. Entre uma jogada e outra, dividiam sorrisos discretos e comentários tímidos. Nada demais. Mas em algum momento, entre o som da bola quicando e o apito do professor, ele pensou:"
     x="398"
-    y="25"
+    y="40"
     font-size="30"
     color="black"
     animation="typewriter"
@@ -52,7 +52,7 @@
     id="frase4"
     text="Quem sabe um dia"
     x="398"
-    y="25"
+    y="100"
     font-size="30"
    color="black"
     animation="typewriter"
@@ -64,7 +64,7 @@
     id="frase5"
     text="Mas o “quem sabe” foi engolido pela rotina. Eles estudavam em turnos diferentes. Devido a faltas nos treinos, começaram a se desencontrar. Às vezes se viam de longe. Às vezes nem isso. As conversas, que já eram poucas, cessaram. E com o tempo, os dois deixaram a ideia de lado."
     x="398"
-    y="25"
+    y="45"
     font-size="30"
     color="black"
     animation="typewriter"
@@ -77,7 +77,7 @@
     text="Eles não sabiam, mas estavam presos num daqueles enredos de anime em que o destino dá um passo atrás antes de dar dois à frente."
     x="398"
     y="25"
-    font-size="30"
+    font-size="80"
     color="black"
     animation="typewriter" />
 </fab-if>
