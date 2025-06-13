@@ -83,8 +83,10 @@
     color="black"
     animation="typewriter"
     />
+</fab-if>
+
   <fab-if when="$texto4 = 6">
-    <agent
+  <agent
     id="frase61"
     text="— Não sei — respondeu a amiga, com um olhar que claramente sabia mais do que dizia. — Só vem."
      x="405"
@@ -93,7 +95,6 @@
     color="black" 
     animation="typewriter"
     />
-  </fab-if>
 </fab-if>
 
 <fab-if when="$texto4 = 7">
