@@ -8,9 +8,8 @@
   x="670"
   y="530"
   font-size="20"
-  color="white" 
-  on_click="set(texto5, $texto5+1)" />
-</fab-if>
+  color="black" 
+  on_click="set(texto5, $texto5+1)" /> 
   
 <fab-if when="$texto5 = 1">
   <agent
